@@ -45,12 +45,12 @@ The result of this is a 2D occupancy grid map. This will be useful for localizat
 
 
 
-##### In addition to the above open source packages, additional packages are included. This is as follows.
+##### In addition, except for the above open source packages,the other packages are included. This is as follows.
 	- add_markers
 	- pick_objects
 
   The pick_objects package provides programmed nodes where the robot drives itself and moves sequentially to two destinations.
-  The first destination means the pick-up zone where the object to be transported is located, and the second destination means the drop-off zone where the object will be transported.
+  The first destination means the pick-up zone where the object to be transported is located, and the second destination means the drop-off zone where the object will be delived.
 (There is pick_objects.sh to easily run this alone.)
 
   The add_markers package handles the processing of creating or deleting virtual objects to be moved by the robot according to specific situations. To be a little more specific,
