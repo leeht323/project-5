@@ -1,5 +1,6 @@
+BRIEF DESCRIPTION
+------------
 This project is a scenario where a robot moves a specific object to another location.
--------------
 The execution of that project is as follows:
 
 -Environment: Robot moving in an indoor environment through GAZEBO simulation
@@ -18,7 +19,7 @@ The execution of that project is as follows:
 
 
 
-###<EXPLAIN the packages>
+EXPLAIN THE PACKAGES 
 ------------------------
 ##### First of all, there are few significant packages used in this project to make robot autonomous.
     -turtlebot_gazebo
