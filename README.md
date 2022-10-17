@@ -35,8 +35,9 @@ The result of this is a 2D occupancy grid map. This will be useful for localizat
   The turtlebot_gazebo package basically provides an environment to use the turtlebot robot in the gazebo simulator environment. By providing a robot and its surroundings in a virtual environment, autonomous driving can be attempted.
   Also, we are providing a launch file so that we can perform localization and navigation using AMCL algorithm, and mapping using gmapping algorithm.
   In this regard, I have created a shell script file to make it easy to run each task.
-	- Mapping : test_slam.sh
-	- Localization & Navigation : test_navigation.sh
+
+  - Mapping : test_slam.sh
+  - Localization & Navigation : test_navigation.sh
 
   The turtlebot_rviz_launchers package provides a visualization tool to visualize various processing of turtlebots. Through this, you can check the autonomous driving movement of the robot, real-time sensing information, and pick-up objects.
 
